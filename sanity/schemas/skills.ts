@@ -7,8 +7,7 @@ const skills = {
         {
             name: 'procent',
             title: 'Procent',
-            type: 'number',
-            validation: Rule => Rule.required().min(1).max(100)
+            type: 'number'
         },
         {
             name: 'image',
