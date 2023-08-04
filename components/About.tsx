@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { getAbout } from "../sanity/sanity-utils";
 
 async function About() {
