@@ -1,7 +1,5 @@
 "use client"
 import React from 'react';
-import {motion} from 'framer-motion';
-import Image from 'next/image';
 
 const procent = 10;
 type Props = { 
@@ -12,7 +10,7 @@ type Props = {
 function Skill(props: Props) {
   return (
     <div className='group relative flex cursor-pointer'>
-        <Image
+        <img
         src={props.poza}  //aici trb niste poza
         alt={'eu'} 
         className='rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out max-[500px]:h-14 max-[500px]:w-14'/>
